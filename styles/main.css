@@ -76,8 +76,11 @@ Styles for slide one
 ================================================== 
 */
 
-.slide-one {
+.slide {
 	height: 100vh;
+}
+
+.slide_background_one {
 	background: url("../images/slide-one/more.png") no-repeat;
 	background-size: cover;
 }
@@ -92,7 +95,7 @@ Styles for slide one
 	color: #003399;
 }
 
-.title_position_slide-one {
+.title_position_one {
 	padding-top: 134px;
 	padding-left: 70px;
 	margin-bottom: -60px;
