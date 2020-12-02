@@ -1,1 +1,71 @@
-/* TODO */
+/* 
+==================================================
+Styles for navigation
+================================================== 
+*/
+
+.pagination {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	position: fixed;
+	left: 983px;
+	top: 352px;
+}
+
+.pagination__circle {
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+}
+
+.pagination__circle_color_orange {
+	background: #ff9933;
+}
+
+.pagination__circle_color_white {
+	background: white;
+}
+
+.indicator__gradient_size_s {
+	height: 76px;
+	width: 400px;
+	background: radial-gradient(ellipse at bottom, #ff9933 20%, rgba(255,255,255,0) 70%);
+}
+
+.indicator__gradient_position_s {
+	position: fixed;
+	left: calc(50% - 400px/2);
+	bottom: -15px;
+}
+
+.indicator__gradient_size_m {
+	height: 56px;
+	width: 1000px;
+	background: radial-gradient(ellipse at bottom, #ff9933 45%, rgba(255,255,255,0) 60%);
+}
+
+.indicator__gradient_position_m {
+	position: fixed;
+	left: calc(50% - 1000px/2);
+	bottom: -20px;
+}
+
+.indicator__text {
+	font-family: Gotham Pro;
+	font-size: 14px;
+	color: white;
+	letter-spacing: -1px;
+}
+
+.indicator__text_position {
+	position: fixed;
+	left: 470px;
+	bottom: 54px;
+}
+
+.indicator__shape-next_position {
+	position: fixed;
+	left: 500px;
+	bottom: 18px;
+}
