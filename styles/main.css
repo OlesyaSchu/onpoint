@@ -69,3 +69,87 @@ Styles for navigation
 	left: 500px;
 	bottom: 18px;
 }
+
+/* 
+==================================================
+Styles for slide one
+================================================== 
+*/
+
+.slide-one {
+	height: 100vh;
+	background: url("../images/slide-one/more.png") no-repeat;
+	background-size: cover;
+}
+
+.title {
+	font-family: Gotham Pro Light;
+	font-size: 46px;
+	white-space: pre-wrap;
+	letter-spacing: -2.8px;
+	word-spacing: -1px;
+	line-height: 60px;
+	color: #003399;
+}
+
+.title_position_slide-one {
+	padding-top: 134px;
+	padding-left: 70px;
+	margin-bottom: -60px;
+}
+
+.peak_position_one {
+	position: absolute;
+	top: 394px;
+	left: 224px;
+}
+
+.peak__point_position_one {
+	position: absolute;
+	top: 32px;
+	left: 50px;
+}
+
+.peak_position_two {
+	position: absolute;
+	top: 504px;
+	left: 368px;
+}
+
+.peak__point_position_two {
+	position: absolute;
+	top: 34px;
+	left: 110px;
+}
+
+.peak_position_three {
+	position: absolute;
+	top: 274px;
+	left: 623px;
+}
+
+.peak__point_position_three {
+	position: absolute;
+	top: -12px;
+	left: -62px;
+}
+
+.peak_position_four {
+	position: absolute;
+	top: 484px;
+	left: 790px;
+}
+
+.peak__point_position_four {
+	position: absolute;
+	top: 32px;
+	left: 32px;
+}
+
+.peak__title {
+	font-family: Lato Regular;
+	font-size: 20px;
+	color: #003399;
+	letter-spacing: 0.2px;
+    word-spacing: 2px;
+}
