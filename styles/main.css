@@ -156,3 +156,64 @@ Styles for slide one
 	letter-spacing: 0.2px;
     word-spacing: 2px;
 }
+
+/* 
+==================================================
+Styles for slide two
+================================================== 
+*/
+
+.slide_background_two {
+	background: url("../images/slide-two/more.png") no-repeat;
+	background-size: contain;
+}
+
+.title_position_two {
+	padding-top: 244px;
+}
+
+.title_color_white {
+	color: white;
+}
+
+.title_align_center {
+	text-align: center;
+}
+
+.title_spasing_two {
+	letter-spacing: 1.9px;
+	word-spacing: -2px;
+}
+
+.title_font_light {
+	font-family: Gotham Pro Light;
+}
+
+.deep {
+	position: absolute;
+	top: 768px;
+}
+
+.ice {
+	position: absolute;
+}
+
+.ice_position_1 {
+	top: 33px;
+	left: 876px;
+}
+
+.ice_position_2 {
+	top: 584px;
+	left: 712px;
+}
+
+.ice_position_3 {
+	top: 443px;
+	left: 231px;
+}
+
+.ice_position_4 {
+	top: 160px;
+	left: 82px;
+}
