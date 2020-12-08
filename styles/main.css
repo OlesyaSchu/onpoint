@@ -9,7 +9,7 @@ Styles for navigation
 	flex-direction: column;
 	gap: 6px;
 	position: fixed;
-	left: 983px;
+	left: calc(50% + 983px - 512px);
 	top: 352px;
 }
 
@@ -64,13 +64,13 @@ Styles for navigation
 
 .indicator__text_position {
 	position: fixed;
-	left: 470px;
+	left: calc(50% + 470px - 512px);
 	bottom: 54px;
 }
 
 .indicator__shape-next_position {
 	position: fixed;
-	left: 500px;
+	left: calc(50% + 500px - 512px);
 	bottom: 18px;
 }
 
@@ -81,13 +81,14 @@ Styles for slide one
 */
 
 .slide {
-	height: 100vh;
-	width: 100vw;
+	height: 768px;
+	width: 1024px;
+	margin: 0 auto;
 }
 
 .slide_background_one {
 	background: url("../images/slide-one/more.png") no-repeat;
-	background-size: cover;
+	background-size: 1024px;
 }
 
 .title {
@@ -109,7 +110,7 @@ Styles for slide one
 .peak_position_one {
 	position: absolute;
 	top: 394px;
-	left: 224px;
+	left: calc(50% + 224px - 512px);
 }
 
 .peak__point_position_one {
@@ -121,7 +122,7 @@ Styles for slide one
 .peak_position_two {
 	position: absolute;
 	top: 504px;
-	left: 368px;
+	left: calc(50% + 368px - 512px);
 }
 
 .peak__point_position_two {
@@ -133,7 +134,7 @@ Styles for slide one
 .peak_position_three {
 	position: absolute;
 	top: 274px;
-	left: 623px;
+	left: calc(50% + 623px - 512px);
 }
 
 .peak__point_position_three {
@@ -145,7 +146,7 @@ Styles for slide one
 .peak_position_four {
 	position: absolute;
 	top: 484px;
-	left: 790px;
+	left: calc(50% + 790px - 512px);
 }
 
 .peak__point_position_four {
@@ -170,7 +171,7 @@ Styles for slide two
 
 .slide_background_two {
 	background: url("../images/slide-two/more.png") no-repeat;
-	background-size: contain;
+	background-size: 1024px;
 }
 
 .title_position_two {
@@ -196,8 +197,8 @@ Styles for slide two
 
 .deep {
 	position: absolute;
-	width: 100vw;
-	height: 100vh;
+	width: 1024px;
+	height: 768px;
 	overflow: hidden;
 }
 
@@ -237,6 +238,7 @@ Styles for slide three
 
 .slide_background_three {
 	background: url("../images/slide-three/more.png") no-repeat;
+	background-size: 1024px;
 }
 
 .slide_position_three {
