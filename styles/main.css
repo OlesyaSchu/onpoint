@@ -744,3 +744,480 @@ Styles for slide four
 	top: 314px;
 	left: 326px;
 }
+
+/* 
+==================================================
+Styles for slide five
+================================================== 
+*/
+
+.slide_position_five {
+	position: relative;
+}
+
+/* ---------- ice ---------- */
+
+.deep__ice_position_slide-five-s {
+	left: -4px;
+	top: 108px;
+}
+
+.deep__ice_position_slide-five-m {
+	left: 936px;
+	top: 212px;
+}
+
+.deep__ice_position_slide-five-l {
+	left: 154px;
+	top: 588px;
+}
+
+.organ__title_text-size_s5 {
+	font-size: 22px;
+	letter-spacing: 1.4px;
+}
+
+/* ---------- positions ---------- */
+
+/* ---------- organ 1 ---------- */
+
+.organ_position_s5_o1 {
+	top: 101px;
+	left: 484px;
+}
+
+.organ__number_position_s5_o1 {
+	position: relative;
+	top: 43px;
+	right: 82px;
+}
+
+.organ__title_position_s5_o1 {
+	position: relative;
+	top: 11px;
+	right: 6px;
+}
+
+.organ__image_position_s5_o1 {
+	padding-bottom: 14px;
+}
+
+.organ__arrow_position_s5-o1-a1 {
+	width: 104px;
+	top: 132px;
+	right: 128px;
+	transform: rotate(172deg);
+}
+
+.organ__arrow_position_s5-o1-a2 {
+	width: 144px;
+	top: 192px;
+	right: 105px;
+	transform: rotate(150deg);
+}
+
+.organ__arrow_position_s5-o1-a3 {
+	width: 222px;
+	top: 234px;
+	right: 76px;
+	transform: rotate(142deg);
+}
+
+.organ__arrow_position_s5-o1-a4 {
+	width: 61px;
+	top: 198px;
+	right: 54px;
+	transform: rotate(90deg);
+}
+
+.organ__arrow_position_s5-o1-a5 {
+	position: absolute;
+	width: 207px;
+	top: 271px;
+	left: -61px;
+	transform: rotate(90deg);
+}
+
+.organ__arrow_position_s5-o1-a6 {
+	width: 61px;
+	top: 198px;
+	right: 8px;
+	transform: rotate(90deg);
+}
+
+.organ__arrow_position_s5-o1-a7 {
+	width: 144px;
+	top: 192px;
+	left: 76px;
+	transform: rotate(31deg);
+}
+
+.organ__arrow_position_s5-o1-a8 {
+	width: 104px;
+	top: 132px;
+	left: 107px;
+	transform: rotate(8deg);
+}
+
+/* ---------- organ 2 ---------- */
+
+.organ_position_s5_o2 {
+	top: 341px;
+	left: 310px;
+}
+
+.organ__title_position_s5_o2 {
+	position: relative;
+	bottom: 6px;
+	width: 200px;
+}
+
+.organ__arrow_position_s5-o2-a1 {
+	width: 50px;
+	top: 110px;
+	left: 168px;
+	transform: rotate(90deg);
+}
+
+/* ---------- organ 3 ---------- */
+
+.organ_position_s5_o3 {
+	top: 267px;
+	left: 468px;
+}
+
+.organ__title_position_s5_o3 {
+	position: relative;
+	top: 73px;
+    left: 74px;
+}
+
+.organ__arrow_position_s5-o3-a1 {
+	width: 8px;
+	top: 143px;
+	right: 73px;
+	transform: rotate(90deg);
+}
+
+/* ---------- organ 4 ---------- */
+
+.organ_position_s5_o4 {
+	top: 480px;
+	left: 718px;
+}
+
+.organ__number_position_s5_o4 {
+    position: relative;
+	top: 72px;
+	left: 74px;
+}
+
+.organ__arrow_position_s5-o4-a1 {
+	width: 28px;
+	top: 129px;
+	right: 100px;
+	transform: rotate(180deg);
+}
+
+/* ---------- organ 5 ---------- */
+
+.organ_position_s5_o5 {
+	top: 394px;
+	left: 720px;
+}
+
+.organ__number_position_s5_o5 {
+	position: relative;
+	top: 75px;
+	left: 72px;
+}
+
+.organ__title_position_s5_o5 {
+	position: relative;
+	top: 76px;
+	left: 73px;
+}
+
+.organ__arrow_position_s5-o5-a1 {
+	top: 66px;
+	left: 19px;
+	transform: rotate(270deg);
+}
+
+/* ---------- organ 6 ---------- */
+
+.organ_position_s5_o6 {
+	top: 310px;
+	left: 720px;
+}
+
+.organ__number_position_s5_o6 {
+	position: relative;
+	top: 74px;
+	left: 72px;
+}
+
+.organ__title_position_s5_o6 {
+	position: relative;
+	top: 77px;
+	left: 72px;
+}
+
+.organ__arrow_position_s5-o6-a1 {
+	top: 66px;
+	left: 20px;
+	transform: rotate(270deg);
+}
+
+/* ---------- organ 7 ---------- */
+
+.organ_position_s5_o7 {
+	top: 155px;
+	left: 715px;
+}
+
+.organ__number_position_s5_o7 {
+	position: relative;
+	top: 76px;
+	left: 75px;
+}
+
+.organ__title_position_s5_o7 {
+	position: relative;
+	top: 72px;
+	left: 77px;
+}
+
+.organ__arrow_position_s5-o7-a1 {
+	width: 13px;
+	top: 146px;
+	left: 85px;
+	transform: rotate(90deg);
+}
+
+.organ__arrow_position_s5-o7-a2 {
+	width: 104px;
+	bottom: 49px;
+	right: 146px;
+	transform: rotate(188deg);
+}
+
+/* ---------- organ 8 ---------- */
+
+.organ_position_s5_o8 {
+	top: 133px;
+	left: 272px;
+}
+
+.organ__number_position_s5_o8 {
+	position: relative;
+	top: 90px;
+	right: 131px;
+}
+
+.organ__title_position_s5_o8 {
+	position: relative;
+	top: 86px;
+	right: 130px;
+	width: 120px;
+}
+
+.organ__image_position_s5_o8 {
+	padding-bottom: 2px;
+	padding-right: 4px;
+}
+
+.organ__arrow_position_s5-o8-a1 {
+	width: 104px;
+	top: 110px;
+	left: 76px;
+	transform: rotate(352deg);
+}
+
+/* ---------- organ 9 ---------- */
+
+.organ_position_s5_o9 {
+	top: 224px;
+	left: 273px;
+}
+
+.organ__number_position_s5_o9 {
+	position: relative;
+	top: 92px;
+	right: 230px;
+}
+
+.organ__title_position_s5_o9 {
+	position: relative;
+	top: 88px;
+	right: 232px;
+	width: 220px;
+}
+
+.organ__image_position_s5_o9 {
+	padding-bottom: 1px;
+	padding-right: 4px;
+}
+
+.organ__arrow_position_s5-o9-a1 {
+	width: 144px;
+	top: 80px;
+	right: 12px;
+	transform: rotate(330deg);
+}
+
+/* ---------- organ 10 ---------- */
+
+.organ_position_s5_o10 {
+	top: 391px;
+	left: 272px;
+}
+
+.organ__number_position_s5_o10 {
+	position: relative;
+	top: 68px;
+	right: 131px;
+}
+
+.organ__title_position_s5_o10 {
+	position: relative;
+	top: 64px;
+	right: 132px;
+	width: 120px;
+}
+
+.organ__image_position_s5_o10 {
+	padding-bottom: 4px;
+	padding-right: 6px;
+}
+
+.organ__arrow_position_s5-o10-a1 {
+	width: 61px;
+	top: 111px;
+	left: 76px;
+}
+
+/* ---------- organ 11 ---------- */
+
+.organ_position_s5_o11 {
+	top: 478px;
+	left: 496px;
+}
+
+.organ__number_position_s5_o11 {
+	position: relative;
+	top: 82px;
+	right: 67px;
+}
+
+.organ__title_position_s5_o11 {
+	position: relative;
+	top: 78px;
+	right: 68px;
+}
+
+.organ__image_position_s5_o11 {
+	padding-bottom: 2px;
+	padding-right: 2px;
+}
+
+.organ__arrow_position_s5-o11-a1 {
+	width: 14px;
+	bottom: 75px;
+	left: 12px;
+	transform: rotate(270deg);
+}
+
+.organ__arrow_position_s5-o11-a2 {
+	width: 14px;
+	bottom: 84px;
+	left: 34px;
+	transform: rotate(90deg);
+}
+
+/* ---------- organ 12 ---------- */
+
+.organ_position_s5_o12 {
+	top: 438px;
+	left: 322px;
+	width: auto;
+	height: auto;
+}
+
+.organ__arrow_position_s5-o12-a1 {
+	width: 14px;
+	bottom: 59px;
+	left: 209px;
+	transform: rotate(90deg);
+}
+
+/* ---------- organ 13 ---------- */
+
+.organ_position_s5_o13 {
+	top: 302px;
+	left: 703px;
+}
+
+.organ__title_position_s5_o13 {
+	position: relative;
+	top: 53px;
+	right: 2px;
+	letter-spacing: -0.2px;
+}
+
+.organ__arrow_position_s5-o13-a1 {
+	width: 13px;
+	bottom: 320px;
+	left: 86px;
+	transform: rotate(270deg);
+}
+
+.organ__arrow_position_s5-o13-a2 {
+	width: 144px;
+	bottom: 326px;
+	right: 255px;
+	transform: rotate(211deg);
+}
+
+/* ---------- organ 14 ---------- */
+
+.organ_position_s5_o14 {
+	top: 416px;
+	left: 269px;
+}
+
+.organ__title_position_s5_o14 {
+	letter-spacing: -0.2px;
+}
+
+.organ__arrow_position_s5-o14-a1 {
+	width: 14px;
+	top: 30px;
+	left: 28px;
+	transform: rotate(90deg);
+}
+
+.organ__arrow_position_s5-o14-a2 {
+	width: 88px;
+	top: 49px;
+	left: 59px;
+	transform: rotate(26deg);
+}
+
+/* ---------- organ 15 ---------- */
+
+.organ_position_s5_o15 {
+	top: 434px;
+	left: 542px;
+}
+
+.organ__title_position_s5_o15 {
+	letter-spacing: -0.2px;
+}
+
+.organ__arrow_position_s5-o15-a1 {
+	width: 22px;
+	top: 31px;
+	right: 59px;
+	transform: rotate(90deg);
+}
