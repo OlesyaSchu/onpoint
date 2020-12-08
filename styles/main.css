@@ -19,6 +19,10 @@ Styles for navigation
 	border-radius: 50%;
 }
 
+.pagination__circle_z-index_100 {
+	z-index: 100;
+}
+
 .pagination__circle_color_orange {
 	background: #ff9933;
 }
