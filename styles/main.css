@@ -477,3 +477,270 @@ Styles for slide three
 	top: 448px;
 	left: 405px;
 }
+
+/* 
+==================================================
+Styles for slide four
+================================================== 
+*/
+
+.slide_position_four {
+	position: relative;
+}
+
+/* ---------- ice ---------- */
+
+.deep__ice_position_slide-four-s {
+	left: 474px;
+	top: 93px;
+}
+
+.deep__ice_position_slide-four-m {
+	left: 45px;
+	top: 239px;
+}
+
+.deep__ice_position_slide-four-l {
+	left: 900px;
+	top: 570px;
+	/* overflow: hidden; */
+}
+
+/* ---------- organ styles for slide 4 ---------- */
+
+.organ__title_text-size_s4 {
+	font-size: 19px;
+	line-height: 24px;
+	letter-spacing: 0.4px;
+/* 	margin-top: -8px; */
+}
+
+.organ__image_char-size_s4 {
+	font-size: 36px;
+}
+
+.organ__image_char-size_60 {
+	font-size: 66px;
+}
+
+.organ__image_size_s {
+	height: 60px;
+	width: 60px;
+}
+
+.organ__arrow_width_60 {
+	width: 22px;
+}
+
+/* ---------- positions ---------- */
+
+/* ---------- organ 1 ---------- */
+
+.organ_position_s4_o1 {
+	top: 139px;
+	left: 496px;
+}
+
+.organ__number_position_s4_o1 {
+	position: relative;
+	top: 14px;
+	right: 12px;
+}
+
+.organ__title_position_s4_o1 {
+	position: relative;
+	top: 9px;
+	right: 7px;
+}
+
+.organ__image_position_s4_o1 {
+	padding-bottom: 4px;
+}
+
+.organ__arrow_position_s4-o1-a1 {
+	top: 150px;
+	left: 19px;
+	transform: rotate(90deg);
+}
+
+/* ---------- organ 2 ---------- */
+
+.organ_position_s4_o2 {
+	top: 159px;
+	left: 338px;
+}
+
+.organ__number_position_s4_o2 {
+	position: relative;
+    top: 72px;
+    right: 212px;
+    width: 200px;
+}
+
+.organ__image_position_s4_o2 {
+	padding-bottom: 4px;
+}
+
+.organ__arrow_position_s4-o2-a1 {
+	top: 130px;
+	left: 18px;
+	transform: rotate(90deg);
+}
+
+/* ---------- organ 3 ---------- */
+
+.organ_position_s4_o3 {
+	top: 159px;
+	left: 648px;
+}
+
+.organ__number_position_s4_o3 {
+	position: relative;
+	top: 72px;
+    left: 73px;
+    width: 88px;
+}
+
+.organ__image_position_s4_o3 {
+	padding-bottom: 4px;
+}
+
+.organ__arrow_position_s4-o3-a1 {
+	top: 130px;
+	right: 48px;
+	transform: rotate(90deg);
+}
+
+/* ---------- organ 4 ---------- */
+
+.organ_position_s4_o4 {
+	top: 262px;
+	left: 753px;
+}
+
+.organ__number_position_s4_o4 {
+	position: relative;
+	top: 110px;
+	left: 74px;
+}
+
+.organ__title_position_s4_o4 {
+	position: relative;
+	top: 116px;
+	left: 74px;
+	width: 100px;
+}
+
+.organ__arrow_position_s4-o4-a1 {
+	width: 28px;
+	top: 129px;
+	right: 100px;
+	transform: rotate(180deg);
+}
+
+/* ---------- organ 5 ---------- */
+
+.organ_position_s4_o5 {
+	top: 407px;
+	left: 647px;
+}
+
+.organ__number_position_s4_o5 {
+	position: relative;
+	top: 142px;
+	right: 10px;
+}
+
+.organ__arrow_position_s4-o5-a1 {
+	top: 66px;
+	left: 19px;
+	transform: rotate(270deg);
+}
+
+/* ---------- organ 6 ---------- */
+
+.organ_position_s4_o6 {
+	top: 407px;
+	left: 494px;
+}
+
+.organ__number_position_s4_o6 {
+	position: relative;
+	top: 142px;
+	right: 6px;
+}
+
+.organ__image_position_s4_o6 {
+	padding-top: 10px;
+}
+
+.organ__arrow_position_s4-o6-a1 {
+	top: 66px;
+	left: 20px;
+	transform: rotate(270deg);
+}
+
+/* ---------- organ 7 ---------- */
+
+.organ_position_s4_o7 {
+	top: 383px;
+	left: 338px;
+}
+
+.organ__number_position_s4_o7 {
+	position: relative;
+	top: 166px;
+	right: 21px;
+	width: 100px
+}
+
+.organ__arrow_position_s4-o7-a1 {
+	top: 91px;
+	left: 19px;
+	transform: rotate(270deg);
+}
+
+/* ---------- organ 8 ---------- */
+
+.organ_position_s4_o8 {
+	top: 282px;
+	left: 233px;
+}
+
+.organ__number_position_s4_o8 {
+	position: relative;
+	top: 88px;
+	right: 75px;
+}
+
+.organ__title_position_s4_o8 {
+	position: relative;
+	top: 90px;
+	right: 77px;
+}
+
+.organ__image_position_s4_o8 {
+	padding-top: 2px;
+	padding-right: 4px;
+}
+
+.organ__arrow_position_s4-o8-a1 {
+	top: 109px;
+	left: 62px;
+}
+
+/* ---------- text in frame ---------- */
+
+.text-in-frame_size_m {
+	width: 388px;
+	height: 142px;
+	line-height: 140px;
+	letter-spacing: 0.3px;
+	font-size: 24px;
+	padding-left: 3px;
+}
+
+.text-in-frame_position_s4 {
+	top: 314px;
+	left: 326px;
+}
