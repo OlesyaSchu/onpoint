@@ -1227,3 +1227,67 @@ Styles for slide five
 	right: 59px;
 	transform: rotate(90deg);
 }
+
+/* 
+==================================================
+Animation for slide one
+================================================== 
+*/
+
+.peak__point {
+	
+	border-radius: 50%;
+	border: solid 1px #cc0033;
+	background: rgba(204,153,51,0.3);
+	animation: increase 3s infinite;
+	animation-timing-function: cubic-bezier(.29, 0, .56, 1.3);
+}
+
+.peak__point_size_1 {
+	width: 28px;
+	height: 28px;
+}
+
+.peak__point_size_2 {
+	width: 18px;
+	height: 18px;
+}
+
+.peak__point_size_3 {
+	width: 54px;
+	height: 54px;
+}
+
+.peak__point_animation-delay_1 {
+	animation-delay: 0.75s;
+}
+
+.peak__point_animation-delay_2 {
+	animation-delay: 1.5s;
+}
+
+.peak__point_animation-delay_3 {
+	animation-delay: 2.25s;
+}
+
+.peak__point_animation-delay_4 {
+	animation-delay: 3s;
+}
+  
+@keyframes increase {
+	from {
+		border: 1px solid #cc6633;
+		background: #cc6633;
+		transform: scale(0.01);
+	}
+	20% {
+		border: 1px solid #cc6633;
+		background: #cc6633;
+	}
+	70% {
+		border: 1px solid #cc6633;
+	}
+	to {
+		transform: scale(1);
+	}
+}
