@@ -1230,6 +1230,20 @@ Styles for slide five
 
 /* 
 ==================================================
+Scroll slides
+================================================== 
+*/
+
+.wrapper_scroll_y {
+	scroll-snap-type: y mandatory;
+}
+
+.slide_scroll-snap-align_center {
+	scroll-snap-align: start;
+}
+
+/* 
+==================================================
 Animation for slide one
 ================================================== 
 */
