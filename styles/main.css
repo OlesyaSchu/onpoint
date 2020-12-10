@@ -1305,3 +1305,22 @@ Animation for slide one
 		transform: scale(1);
 	}
 }
+
+/* 
+==================================================
+Animation for slide two
+================================================== 
+*/
+
+.title_animate_down {
+	transform: translate(0px, 100px);
+}
+
+.title_animate_up {
+	transform: translate(0px, -100px);
+}
+
+.title_animate_start-position {
+	transform: translate(0px, 0px);
+	transition: all 1s ease 0s;
+}
