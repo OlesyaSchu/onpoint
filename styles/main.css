@@ -1273,19 +1273,19 @@ Animation for slide one
 }
 
 .peak__point_animation-delay_1 {
-	animation-delay: 0.75s;
+	animation-delay: -0.75s;
 }
 
 .peak__point_animation-delay_2 {
-	animation-delay: 1.5s;
+	animation-delay: -1.5s;
 }
 
 .peak__point_animation-delay_3 {
-	animation-delay: 2.25s;
+	animation-delay: -2.25s;
 }
 
 .peak__point_animation-delay_4 {
-	animation-delay: 3s;
+	animation-delay: -3s;
 }
   
 @keyframes increase {
