@@ -1,6 +1,9 @@
 const array_of_animated_elements_slide_one = document.querySelectorAll(".title_position_one, .peak");
 const array_of_animated_elements_slide_two = document.querySelectorAll(".title_position_two, .deep_position_two");
 
+const viewport_height = 768;
+const viewport_width = 1024;
+
 window.addEventListener('scroll', animation_on_slide);
 
 function animation_on_slide () {
@@ -9,13 +12,13 @@ function animation_on_slide () {
 }
 
 function animation_on_scroll (array_of_animated_elements, number_of_slide) {
-	let no_animation_up_area = 768 * (number_of_slide - 1.9);
+	let no_animation_up_area = viewport_height * (number_of_slide - 1.9);
 
-	let point_of_start_animation_up = 768 * (number_of_slide - 1.5);
-	let point_of_end_animation_up = 768 * (number_of_slide - 1);
+	let point_of_start_animation_up = viewport_height * (number_of_slide - 1.5);
+	let point_of_end_animation_up = viewport_height * (number_of_slide - 1);
 
-	let point_of_start_animation_down = 768 * (number_of_slide - 0.1);
-	let point_of_end_animation_down = 768 * (number_of_slide - 0.5);
+	let point_of_start_animation_down = viewport_height * (number_of_slide - 0.1);
+	let point_of_end_animation_down = viewport_height * (number_of_slide - 0.5);
 
 	array_of_animated_elements.forEach( (animated_element) => {
 		if (pageYOffset < no_animation_up_area) {
