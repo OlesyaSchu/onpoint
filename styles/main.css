@@ -17,18 +17,11 @@ Styles for navigation
 	width: 14px;
 	height: 14px;
 	border-radius: 50%;
+	background: white;
 }
 
 .pagination__circle_z-index_100 {
 	z-index: 100;
-}
-
-.pagination__circle_color_orange {
-	background: #ff9933;
-}
-
-.pagination__circle_color_white {
-	background: white;
 }
 
 .indicator__gradient_size_s {
@@ -1260,6 +1253,28 @@ Scroll slides
 
 .slide_scroll-snap-align_center {
 	scroll-snap-align: start;
+}
+
+/* 
+==================================================
+Animation for navigation
+================================================== 
+*/
+
+.pagination__circle {
+	transition: all 0.5s ease 0s;
+}
+
+.pagination__circle_active {
+	background-color: #ff9933;
+}
+
+.indicator {
+	transition: all 0.1s ease 0s;
+}
+
+.indicator_hidden {
+	opacity: 0;
 }
 
 /* 

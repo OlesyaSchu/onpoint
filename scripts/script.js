@@ -37,3 +37,32 @@ function animation_on_scroll (array_of_animated_elements, number_of_slide) {
 		}
 	});
 }
+
+window.addEventListener('scroll', animation_navigation);
+
+function animation_navigation () {
+	change_color_of_pagination();
+	hidden_indicator();
+}
+
+function change_color_of_pagination () {
+	const array_of_pagination__circle = document.querySelectorAll(".pagination__circle");
+	let number_active_circle = (pageYOffset + 0.5 * viewport_height) / viewport_height;
+	number_active_circle = Math.trunc(number_active_circle);
+	array_of_pagination__circle.forEach((element, index) => {
+		if (element.classList.contains("pagination__circle_active") && (index != number_active_circle)) {
+			element.classList.remove("pagination__circle_active");
+		}
+	});
+	array_of_pagination__circle[number_active_circle].classList.add("pagination__circle_active");
+}
+
+function hidden_indicator () {
+	const indicator = document.querySelector(".indicator");
+	if ((pageYOffset > 0.1 * viewport_height) && !indicator.classList.contains("indicator_hidden")) {
+		indicator.classList.add("indicator_hidden");
+	}
+	if ((pageYOffset <= 0.1 * viewport_height) && indicator.classList.contains("indicator_hidden")) {
+		indicator.classList.remove("indicator_hidden");
+	}
+}
