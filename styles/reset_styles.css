@@ -11,3 +11,8 @@ ul, ol {
 a {
   text-decoration-skip-ink: auto;
 }
+
+body {
+	width: 1024px;
+	margin: 0 auto;
+}
