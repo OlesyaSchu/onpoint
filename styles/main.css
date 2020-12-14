@@ -507,6 +507,7 @@ Styles for slide four
 
 .slide_position_four {
 	position: relative;
+	right: 11px;
 }
 
 /* ---------- ice ---------- */
@@ -522,9 +523,8 @@ Styles for slide four
 }
 
 .deep__ice_position_slide-four-l {
-	left: 900px;
+	left: 800px;
 	top: 570px;
-	/* overflow: hidden; */
 }
 
 /* ---------- organ styles for slide 4 ---------- */
@@ -780,7 +780,7 @@ Styles for slide five
 /* ---------- ice ---------- */
 
 .deep__ice_position_slide-five-s {
-	left: -4px;
+	left: 4px;
 	top: 108px;
 }
 
