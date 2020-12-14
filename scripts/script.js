@@ -66,3 +66,68 @@ function hidden_indicator () {
 		indicator.classList.remove("indicator_hidden");
 	}
 }
+
+const values_of_input = 99;
+
+window.addEventListener('input', change_slide);
+
+function change_slide () {
+	const input = document.querySelector(".slider");
+	const wrapper = document.querySelector(".wrapper_scroll_x");
+	let value = Number(input.value);
+	wrapper.scrollLeft = (value) * (viewport_width * 2 / values_of_input);
+	change_scroll_bar(input, input.value); 
+}
+
+window.addEventListener('change', move_input);
+
+function move_input () {
+	const input = document.querySelector(".slider");
+	let value = input.value * 1;
+
+	const start = 0;
+	const finish = values_of_input + 1;
+	const middle = (finish - start) / 2 - 1;
+
+	let move_to_value = 0;
+
+	if (value < ((middle - start) / 2)) move_to_value = start;
+	if ((value >= ((middle - start) / 2)) && (value < ((finish - middle) / 2 + middle))) move_to_value = middle;
+	if (value >= ((finish - middle) / 2 + middle)) move_to_value = finish;
+	
+	const duration = 200;
+
+	(function animate_input() {
+		const time_start = performance.now();
+
+		requestAnimationFrame( function animate_input (time){
+
+			let time_progress = (time - time_start) / duration;
+			if (time_progress > 1) time_progress = 1;
+			let point_of_animation = Math.pow(time_progress, 2);
+			let modification_value = (move_to_value - value) * point_of_animation;
+			input.value = value + modification_value;
+			change_scroll_bar(input, input.value);
+			change_slide();
+			if (time_progress < 1) {
+				requestAnimationFrame(animate_input);
+			}
+		});
+		
+	})();
+	
+}
+
+function change_scroll_bar (input, value) {
+	value *= 1;
+	const style_input = getComputedStyle(input);
+	const input_width = style_input.width.substring( 0, style_input.width.length - 2) * 1 - 20;
+	const scroll_bar = document.querySelector(".scroll-bar_animate");
+	if (value <= 30) {
+		scroll_bar.style.width = (input_width) * value / values_of_input + 10 + 'px';
+	} else if (value > 95) {
+        scroll_bar.style.width = (input_width) * value / values_of_input - 10 + 'px';
+	} else {
+		scroll_bar.style.width = (input_width) * value / values_of_input + 'px';
+	}
+}

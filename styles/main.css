@@ -371,11 +371,11 @@ Styles for slide three
 .slider {
 	appearance: none;
 	height: 12px;
-	width: 640px;
-	background: rgba(255, 255, 255, 0.25);
-	position: relative;
-	top: 680px;
-	left: 196px;
+	width: 652px;
+	position: absolute;
+	top: 683px;
+	left: calc(50% - 323px);
+	background: rgba(255, 255, 255, 0);
 }
 
 .slider::-webkit-slider-thumb {
@@ -390,11 +390,28 @@ Styles for slide three
 	width: 700px;
 	font-size: 16px;
 	letter-spacing: 1px;
-	position: relative;
-	top: 704px;
+	position: absolute;
+	top: 722px;
 	left: 190px;
 	display: flex;
 	gap: 251px;
+}
+
+.toggle {
+	position: relative;
+	z-index: 100;
+}
+
+.scroll-bar {
+	position: absolute;
+	left: 195px;
+	width: 10px;
+	background-color: #ccffff;
+}
+
+.scroll-bar_background {
+	width: 640px;
+	background: rgba(255, 255, 255, 0.25);
 }
 
 /* ---------- positions ---------- */
