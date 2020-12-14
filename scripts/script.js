@@ -70,7 +70,7 @@ function hide_indicator () {
 	}
 }
 
-const values_of_input = 99;
+const values_of_input = 100;
 
 window.addEventListener('input', change_slide);
 
@@ -78,7 +78,7 @@ function change_slide () {
 	const input = document.querySelector(".slider");
 	const wrapper = document.querySelector(".wrapper_scroll_x");
 	let value = Number(input.value);
-	wrapper.scrollLeft = (value) * (viewport_width * 2 / values_of_input);
+	wrapper.scrollLeft = (value) * (viewport_width * 2 / values_of_input); 
 	change_scroll_bar(input, input.value); 
 }
 
@@ -89,8 +89,8 @@ function move_input () {
 	let value = input.value * 1;
 
 	const start = 0;
-	const finish = values_of_input + 1;
-	const middle = (finish - start) / 2 - 1;
+	const finish = values_of_input;
+	const middle = (finish - start) / 2;
 
 	let move_to_value = 0;
 
