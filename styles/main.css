@@ -260,6 +260,17 @@ Styles for slide three
 	top: 554px;
 }
 
+.wrapper {
+	overflow-x: scroll;
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: hidden;
+}
+
+.presentation {
+	width: 1024px;
+}
+
 .presetation__title {
 	position: absolute;
 	top: 98px;
