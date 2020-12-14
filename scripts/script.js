@@ -45,7 +45,7 @@ window.addEventListener('scroll', animation_navigation);
 
 function animation_navigation () {
 	change_color_of_pagination();
-	hidden_indicator();
+	hide_indicator();
 }
 
 function change_color_of_pagination () {
@@ -60,7 +60,7 @@ function change_color_of_pagination () {
 	array_of_pagination__circle[number_active_circle].classList.add("pagination__circle_active");
 }
 
-function hidden_indicator () {
+function hide_indicator () {
 	const indicator = document.querySelector(".indicator");
 	if ((pageYOffset > 0.1 * viewport_height) && !indicator.classList.contains("indicator_hidden")) {
 		indicator.classList.add("indicator_hidden");
