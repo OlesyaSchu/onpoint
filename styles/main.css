@@ -339,6 +339,10 @@ Styles for slide three
 	background: linear-gradient(rgba(255, 255, 255, 0.1), transparent);
 }
 
+.organ__image_scale_09 {
+	transform: scale(0.9);
+}
+
 .organ__arrow {
 	width: 100px;
 	height: 1px;
@@ -689,6 +693,7 @@ Styles for slide four
 
 .organ__image_position_s4_o6 {
 	padding-top: 10px;
+	padding-right: 4px;
 }
 
 .organ__arrow_position_s4-o6-a1 {
@@ -984,6 +989,10 @@ Styles for slide five
 	top: 66px;
 	left: 20px;
 	transform: rotate(270deg);
+}
+
+.organ__image_position_s5_o6 {
+	padding-top: 16px;
 }
 
 /* ---------- organ 7 ---------- */
